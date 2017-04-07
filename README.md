@@ -7,7 +7,6 @@ systems running [HardenedBSD](https://www.hardenedbsd.org),
 
 ## Articles
 
-HardenedBSD
-===========
+### HardenedBSD
 
 * [Turn FreeBSD into HardenedBSD](articles/hardenedbsd/convert_freebsd_to_hardenedbsd.md)
