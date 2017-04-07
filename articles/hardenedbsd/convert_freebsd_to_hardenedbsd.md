@@ -87,3 +87,7 @@ look at secadm-rules the HBSD project provides:
     % make -C ports/hardenedbsd/secadm-kmod config install clean
     % git clone https://github.com/HardenedBSD/secadm-rules
 ```
+
+At this point, I'd like to point out to the
+[HardenedBSD Handbook](https://hardenedbsd.org/~shawn/hbsd_handbook/book.html#hardenedbsd-secadm)
+chapter on `secadm`, and call it a day.
