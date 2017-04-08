@@ -33,7 +33,7 @@ In a next step, we download the latest `hbsd-update` shellscript from
 HardenedBSD's git repository, the corresponding config file, and certificates.
 Once fetched into a temporary folder, we modify the `hbsd-update` script to
 take into account the ports unbound install, and move the files into their
-final destination. 
+final destination.
 
 ```
     % cd /tmp
@@ -41,7 +41,7 @@ final destination.
     % sed -i -e '/^UNBOUND_HOST=/ s/\/usr\/sbin\/unbound-host/\/usr\/local\/sbin\/unbound-host/' hbsd-update
     % chmod +x hbsd-update
 
-    % sudo -i 
+    % sudo -i
 
     # mv hbsd-update /usr/sbin
     # mv hbsd-update.conf /etc
@@ -57,11 +57,19 @@ Now with the preparation out of the way, we can get to the meat:
 # Deploying HardenedBSD
 
 You may have already guessed: we will use `hbsd-update` to turn FreeBSD into
-HardenedBSD, and reboot once that's done.
+HardenedBSD and reboot once that's done.
 
 ```
-    # hbsd-update
-    # reboot
+    # hbsd-update && reboot
+```
+
+NB: If you've checked out the FreeBSD source code to `/usr/src`, append the
+`-s` flag to have hbsd-update extract the HardenedBSD sources in-place. Do make
+sure to remove corresponding vcs directories like .svn or .git.
+
+```
+    # rm -rf /usr/src/{.svn,.git,*}
+    # hbsd-update -s && reboot
 ```
 
 Finally, you'll notice that many of your installed third-party tools are now
@@ -79,9 +87,10 @@ installed from ports are now missing shared libraries, and need to be
 reinstalled.
 
 If you've installed any of those third-party tools from ports, you will want to
-reinstall them using the HardenedBSD ports tree. To make full use of
-HardenedBSD's security features, install secadm and secadm-kmod, and take a
-look at secadm-rules the HBSD project provides:
+reinstall them using the HardenedBSD ports tree.
+
+To make full use of HardenedBSD's security features, install secadm and
+secadm-kmod, and take a look at secadm-rules the HBSD project provides:
 
 ```
     % git clone https://github.com/hardenedbsd/hardenedbsd-ports ports
