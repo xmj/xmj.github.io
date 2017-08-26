@@ -49,7 +49,7 @@ final destination.
     # mv ca.hardenedbsd.org /usr/share/keys/hbsd-update/trusted
     # mv dnssec.key-2016-07-30 /usr/share/keys/hbsd-update/trusted
     # ln -s /usr/share/keys/hbsd-update/trusted/ca.hardenedbsd.org /usr/share/keys/hbsd-update/trusted/5905e1b4.0
-    # ln -s /usr/share/keys/hbsd-update/trusted/dnssec.key /usr/share/keys/hbsd-update/trusted/dnssec.key-2016-07-30
+    # ln -s /usr/share/keys/hbsd-update/trusted/dnssec.key-2016-07-30 /usr/share/keys/hbsd-update/trusted/dnssec.key
 ```
 
 Now with the preparation out of the way, we can get to the meat:
