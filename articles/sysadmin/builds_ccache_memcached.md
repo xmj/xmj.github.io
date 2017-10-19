@@ -16,7 +16,7 @@ Metamode can be used by setting the following in `/etc/src-env.conf`:
 WITH_META_MODE=YES
 ```
 
-Using metamode I've rebuilt `HardenedBSD 12.0-CURRENT world/kernel on a ThinkPad x260 within under ten minutes.
+Using metamode I've rebuilt `HardenedBSD 12.0-CURRENT world/kernel` on a ThinkPad x260 within under ten minutes.
 
 DIRDEPS
 -------
