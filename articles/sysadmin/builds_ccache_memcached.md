@@ -21,7 +21,7 @@ Using metamode I've rebuilt `HardenedBSD 12.0-CURRENT world/kernel` on a ThinkPa
 DIRDEPS
 -------
 
-Using dirdeps leverages the metadata built using make(1)'s metamode. Information present in the so built .meta files can be used to derive a dependency graph, such that there is a way of (taking the example of bin/sh) building not only sh(1) but also its dependencies (in this case, libc, libcompiler_rt, libedit, libncursesw, etc). This feature then is used to derive a full graph of the source tree, and not traverse it unnecessarily by building things in the right order.
+Using dirdeps leverages the metadata built using make(1)'s metamode. Information present in the so built .meta files can be used to derive a dependency graph, such that there is a way of (taking the example of /bin/sh) building not only sh(1) but also its dependencies (in this case, libc, libcompiler_rt, libedit, libncursesw, etc). This feature then is used to derive a full graph of the source tree, and not traverse it unnecessarily by building things in the right order.
 
 Dirdeps can be enabled by setting the following in `/etc/src-env.conf`:
 
