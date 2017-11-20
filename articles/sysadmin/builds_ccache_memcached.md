@@ -29,7 +29,7 @@ Dirdeps can be enabled by setting the following in `/etc/src-env.conf`:
 WITH_DIRDEPS_BUILD=yes
 ```
 
-Setting this implies various other options, including the above-mentioned metamode, automatic build of objdirs, staging install to a test directory, etc.
+Setting this implies various other options, including the above-mentioned metamode, automatic build of objdirs, staging install to a test directory, etc. Note that its main use is for quickly being able to test changes on a running system, and as such may be more useful for development.
 
 POUDRIERE and CCACHE
 --------------------
