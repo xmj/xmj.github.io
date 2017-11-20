@@ -8,12 +8,18 @@ In this article I'd like to show a few ways of achieving this from a user's pers
 METAMODE
 --------
 
-For kernel/base builds, one way of achieving this is using meta mode. This makes make(1) capture information that will be relevant for next builds in a .meta file, such as the compiler invocation, files read during compile (including includes, and their location), libraries used, interesting syscalls issued, etc. make(1) achieves that by using the filemon(4) interface (required for e.g. tracing syscalls issued during make(1) execution). On subsequent runs, if a .meta file can be found, make(1) determines if the information in this .meta file still contains uptodate information (e.g. by comparing the proposed to the past compiler invocation), comparing access times for libraries and code used to the object previously built), and if not, rebuilds the object.
+For kernel/base builds, one way of achieving this is using meta mode. This makes make(1) capture information that will be relevant for next builds in a .meta file, such as the compiler invocation, files read during compile (including includes, and their location), libraries used, interesting syscalls issued, etc. make(1) achieves that by using the filemon(4) interface (required for e.g. tracing syscalls issued during make(1) execution). On subsequent runs, if a .meta file can be found, make(1) determines if the information in this .meta file still contains uptodate information (e.g. by comparing the proposed to the past compiler invocation, comparing access times for libraries and code used to the object previously built), and if not, rebuilds the object.
 
 Metamode can be used by setting the following in `/etc/src-env.conf`:
 
 ```
 WITH_META_MODE=YES
+```
+
+and loading the `filemon` kernel module:
+
+```
+kldload filemon
 ```
 
 Using metamode I've rebuilt `HardenedBSD 12.0-CURRENT world/kernel` on a ThinkPad x260 within under ten minutes.
