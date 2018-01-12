@@ -8,8 +8,8 @@ In this tutorial I show you how to turn `FreeBSD 11.0-RELEASE` into
 
 * Recent FreeBSD installation
 * unbound
-* hbsd-update (from Github)
-* HardenedBSD update certificates (from Github)
+* hbsd-update (from GitHub)
+* HardenedBSD update certificates (from GitHub)
 
 
 # Preparation
