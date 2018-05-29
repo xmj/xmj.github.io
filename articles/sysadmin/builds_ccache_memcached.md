@@ -90,5 +90,5 @@ ADDITIONAL READING
 ------------------
 - The original METAMODE talk given by sjg during BSDCan 2011:
   [http://www.crufty.net/sjg/blog/BuildingBSD.pdf](http://www.crufty.net/sjg/blog/BuildingBSD.pdf).
-- ccache.conf(5) lists various options that could be used to tune/adjust ccache behavior.
+- ccache(1) lists various options that could be used to tune/adjust ccache behavior.
 - memcached(1) lists options that could be used to enable (SASL) authentication.
