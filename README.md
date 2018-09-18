@@ -17,3 +17,4 @@ systems running [HardenedBSD](https://www.hardenedbsd.org),
 ### DevOps Done Wrong
 
 * [Big Data Frameworks](articles/devops_done_wrong/big_data_frameworks.md)
+* [Environment Multiplication](articles/devops_done_wrong/environment_multiplication.md)
