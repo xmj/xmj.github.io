@@ -1,0 +1,24 @@
+url: "https://xmj.github.io"
+baseurl: ""
+
+title: xmj's notes
+
+description: xmj's notes on systems running HardenedBSD, FreeBSD, and the likes.
+
+author:
+  name: Johannes Jost Meixner
+  bio: "Principal Consultant, Perceivon OÜ"
+  email: "xmj@chaot.net"
+  github: github.com/xmj
+  twitter: xmjEE
+  linkedin: in/johannes-meixner-b5746463
+ 
+footer-links-active:
+  email: true
+  twitter: true
+  github: true
+  linkedin: true
+
+url-pretty: "xmj.github.io"
+
+timezone: "Europe/zurich"
