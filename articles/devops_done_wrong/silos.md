@@ -13,13 +13,13 @@ Companies need to satisfy stakeholder demands for state of the art in-house
 knowledge on deployment software of the day, be it "configuration management"
 or "infrastructure as code" software.
 
-Popular with this model is to keep infrastructure changes within operations, so
-that development teams "provide the software", and DevOps teams "provide the
-infra glue" and operations "provide deployments".
+Popular with this model is to keep actual infrastructure changes within operations.
+Development teams "provide the software". DevOps teams "provide the infra
+glue". Operations "provide deployments". Neatly separated.
 
 What obtains is that people writing the software are twice-removed from its effects,
 and that those who write the "infra glue" do not have their skin in the game
-during deployments.
+during deployments either.
 
 Combine that with on-call duties separated into yet another team (!) and you
 can virtually guarantee hilarity ensuing left right and center.
@@ -28,5 +28,5 @@ Software developers work very differently when their sleep is put at risk.
 DevOps staff will be much more diligent in ensuring everything is well tested
 and stable before it touches integration environments.
 
-What seems to work much less wrong: forming mixed teams involving all three
+What seems to work much less badly: forming mixed teams, involving all three
 groups mentioned above, rotating on-call duties - and checklists.
