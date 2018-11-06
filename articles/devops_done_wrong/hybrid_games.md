@@ -18,6 +18,12 @@ platforms, leveraging quick-to-scale services into a very complex architecture
 while bringing "on premise" mindsets (long-running, mutable infrastructure that
 requires patchdays).
 
+A more cautious approach uses "On-Premise Cloud" services, provided by big
+players like VMware, Oracle, SAP, and the various OpenStack backers. It
+involves virtual machines operated through "self service portals". The caveat
+nobody talks about is that these are typically operated by a very limited
+class of people, so are never actually self-service in practice.
+
 Mindsets consist of intellectual habits - ways of thinking about things - which
 take some time to obtain, and are achieved only by deliberate practice. What we
 do most often shapes how we think about things ("when all you have is a
