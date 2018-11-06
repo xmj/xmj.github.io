@@ -20,3 +20,4 @@ systems running [HardenedBSD](https://www.hardenedbsd.org),
 * [Environment Multiplication](articles/devops_done_wrong/environment_multiplication.md)
 * [Missing Code Reviews](articles/devops_done_wrong/missing_reviews.md)
 * [Continuing Silos](articles/devops_done_wrong/silos.md)
+* [Hybrid Games](articles/devops_done_wrong/hybrid_games.md)
