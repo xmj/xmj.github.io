@@ -5,4 +5,5 @@ The following articles detail hands-on how to knowledge I have documented for my
 
 * [Turn FreeBSD into HardenedBSD](convert_freebsd_to_hardenedbsd.md)
 * [Speeding up builds with ccache & memcached](builds_ccache_memcached.md)
+* [Hashicorp Vault and Active Directory: RBAC](vault_and_activedirectory.md)
 
