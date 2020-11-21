@@ -13,3 +13,5 @@ The following articles detail the many ways I have seen that my clients past and
   On how DevOps continues corporate siloing.
 * [Hybrid Games](hybrid_games.md)
   On Hybrid Clouds, processes, and bringing the wrong mindset.
+* [Agile Waterfalls](agile_waterfalls.md)
+  On Agile Waterfalls and the Worst of both Worlds
