@@ -12,7 +12,7 @@ product development through verifiable and (sort of) plannable increments.
 Now we learn that this can be reconciled, merged and layered with standard waterfall project management mechanisms,
 especially those that have been used for decades in large companies and state-sponsored enterprises.
 
-This, of coure, yields the worst of both worlds: you are neither agile, nor
+This, of course, yields the worst of both worlds: you are neither agile, nor
 will you ever be able to "throw planned results over the wall to operations".
 All the paper trails you leave to satisfy dinosaur processes, such as writing
 project specifications to obtain internal funding, cost valuable resources you
