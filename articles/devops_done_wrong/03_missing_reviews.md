@@ -22,21 +22,20 @@ And all of it at one point or another will generate excess cost. Sooner or later
 some not well thought out code will go into production, and cause outages[1].
 
 Something that might prevent these is to encourage everyone, no matter how
-experienced, to participate actively in code reviews. This means, at a minimum:
+experienced, to participate actively in code reviews. This means, at a minimum,
+asking questions:
 
-asking questions.
+- Often enough, code that produces negative side-effects has a certain "funky
+  look" to it. If something seems unclear, unnecessary, out of line, or in some
+  way dubious, this is an easy way in to leaving a comment along the lines of
+  "What's this do?"
 
-Often enough, code that produces negative side-effects has a certain "funky
-look" to it. If something seems unclear, unnecessary, out of line, or in some
-way dubious, this is an easy way in to leaving a comment along the lines of
-"What's this do?"
+- "Clever hacks" - that is, anything that takes longer than expected to
+  understand - should have comments documenting intended behavior. If they are
+  missing, here is another way in.
 
-"Clever hacks" - that is, anything that takes longer than expected to
-understand - should have comments documenting intended behavior. If they are
-missing, here is another way in.
-
-Last but not least, when you see someone using a pattern you are not yet
-familiar with, you could ask where (which language, perhaps) this comes from.
+- Last but not least, when you see someone using a pattern you are not yet
+  familiar with, you could ask where (which language, perhaps) this comes from.
 
 This document will give you some ideas. But first and foremost, it gives you
 the license to question. At the price of a duty to perform code review.
