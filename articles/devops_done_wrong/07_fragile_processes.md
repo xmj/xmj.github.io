@@ -1,4 +1,4 @@
-Flawed Processes
+Fragile Processes
 ================
 
 As a business (as opposed to a Company of One, like yours truly) your strategic advantage comes from codifying repeated workflows into proper processes. This leads to desirable side effects, one of them being the saved time, money and effort in doing things the Proper Way you've always done it.

@@ -15,5 +15,7 @@ The following articles detail the many ways I have seen that my clients past and
   On Hybrid Clouds, processes, and bringing the wrong mindset.
 * [Agile Waterfalls](06_agile_waterfalls.md)
   On Agile Waterfalls and the Worst of both Worlds
+* [Fragile Processes](07_fragile_processes.md)
+  On Fragile Processes, both bottom-up and top-down, and how to find the middle ground.
 
 The articles have been compiled into an Epub and can be found [here.](https://xmj.me/library/DDW.epub)
