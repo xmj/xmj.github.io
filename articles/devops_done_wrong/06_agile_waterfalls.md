@@ -9,8 +9,9 @@ SCRUM brings its daily standups, weekly meetings, plannings, reviews,
 refinement and retrospective meetings. It is a complete suite for achieving
 product development through verifiable and (sort of) plannable increments.
 
-Now we learn that this can be reconciled, merged and layered with standard waterfall project management mechanisms,
-especially those that have been used for decades in large companies and state-sponsored enterprises.
+Now we learn that this can be reconciled, merged and layered with standard
+waterfall project management mechanisms, especially those that have been used
+for decades in large companies and state-sponsored enterprises.
 
 This, of course, yields the worst of both worlds: you are neither agile, nor
 will you ever be able to "throw planned results over the wall to operations".
