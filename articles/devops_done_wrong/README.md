@@ -18,7 +18,7 @@ The following articles detail the many ways I have seen that my clients past and
 * [Fragile Processes](07_fragile_processes.md)
   On Fragile Processes, both bottom-up and top-down, and how to find the middle ground.
 
-The articles have been compiled into an Epub and can be found [here.](https://xmj.me/library/DDW.epub)
+The articles have been compiled into an ebook and can be found as [EPUB](https://xmj.me/library/DDW.epub) and [PDF](https://xmj.me/library/DDW.pdf) 
 
 ## To generate a PDF
 
