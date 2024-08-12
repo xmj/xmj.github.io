@@ -10,4 +10,3 @@ my entrepreneurial ventures.
 
 * [Systems Administration](articles/sysadmin/README.md)
 * [DevOps Done Wrong](articles/devops_done_wrong/README.md)
-* [Meixner GmbH](articles/meixnergmbh/README.md)
