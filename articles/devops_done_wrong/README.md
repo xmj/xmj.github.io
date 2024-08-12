@@ -19,3 +19,15 @@ The following articles detail the many ways I have seen that my clients past and
   On Fragile Processes, both bottom-up and top-down, and how to find the middle ground.
 
 The articles have been compiled into an Epub and can be found [here.](https://xmj.me/library/DDW.epub)
+
+## To generate a PDF
+
+```
+pandoc 0*.md --toc --metadata-file=metadata.yml --template template/pdf.tex -o test.pdf
+```
+
+## to generate an EPUB container
+
+```
+pandoc 0*.md --css=template/style.css --toc --metadata-file=metadata.yml --template template/epub.html -o test.epub
+```
