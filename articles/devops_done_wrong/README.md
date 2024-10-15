@@ -17,6 +17,8 @@ The following articles detail the many ways I have seen that my clients past and
   On Agile Waterfalls and the Worst of both Worlds
 * [Fragile Processes](07_fragile_processes.md)
   On Fragile Processes, both bottom-up and top-down, and how to find the middle ground.
+* [Systems Ownership](08_systems_ownership.md)
+  On the mismatch between responsibility for, and ultimately the ability to control something.
 
 The articles have been compiled into an ebook and can be found as [EPUB](https://xmj.me/library/DDW.epub) and [PDF](https://xmj.me/library/DDW.pdf) 
 
