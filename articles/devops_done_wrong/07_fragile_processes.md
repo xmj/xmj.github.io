@@ -1,5 +1,5 @@
 Fragile Processes
-================
+=================
 
 As a business (as opposed to a Company of One, like yours truly) your strategic
 advantage comes from codifying repeated workflows into proper processes. This
