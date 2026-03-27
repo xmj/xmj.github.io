@@ -25,11 +25,11 @@ The articles have been compiled into an ebook and can be found as [EPUB](https:/
 ## To generate a PDF
 
 ```
-pandoc 0*.md --toc --metadata-file=metadata.yml --template template/pdf.tex -o test.pdf
+pandoc 0*.md --toc --metadata-file=metadata.yml --template template/pdf.tex -o DDW.pdf
 ```
 
 ## to generate an EPUB container
 
 ```
-pandoc 0*.md --css=template/style.css --toc --metadata-file=metadata.yml --template template/epub.html -o test.epub
+pandoc 0*.md --css=template/style.css --toc --metadata-file=metadata.yml --template template/epub.html -o DDW.epub
 ```

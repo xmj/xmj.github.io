@@ -1,0 +1,6 @@
+.*.sw?
+./template/
+metadata.yml
+Makefile
+*.pdf
+*.epub
